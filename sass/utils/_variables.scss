@@ -1,0 +1,27 @@
+/* Переменные */
+:root {
+  --prime-color: #ffffff; /* цвет hearer, адрес, кнопка h1, лого footer */
+  --logo-color: #000000; /* цвет лого hearer*/
+  --header-color: #212121; /* цвет ссылок header и заголовки h2, h3 */
+  --text-color: #757575; /* цвет текста */
+  --border-color: #ececec; /* цвет header border*/
+  --border-clients-color: #afb1b8; /* цвет клиентской ссылки*/
+  --accent-color: #2196f3; /* цвет акцент */
+  --footer-link-color: rgba(
+    255,
+    255,
+    255,
+    0.6
+  ); /* цвет ссылок адреса в footer */
+  --prime-background: #2f303a; /* цвет вторичного фона */
+  --secondary-background: #f5f4fa; /* цвет фона команда, фон основной кнопки портфолио*/
+
+  --gap-title: 10px;
+  --gap-item: 30px;
+  --gap-header: 50px;
+  --gap-footer: 60px;
+  --gap-section: 94px;
+
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --time-function: 250ms;
+}

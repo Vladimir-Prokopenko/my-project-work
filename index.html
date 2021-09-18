@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IceCream</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+
+  <!-- Страница Студия -->
+  <body>
+    <main>
+      <!-- Секция герой -->
+      <section class="hero">
+        <div class="container-hero">
+          <img src="./images/logo.png" alt="logo" />
+          <div class="hero-ice__thumb">
+            <img
+              srcset="
+                ./images/hero_ice_cream-mobile.png    1x,
+                ./images/hero_ice_cream-mobile@2x.png 2x,
+                ./images/hero_ice_cream-mobile@3x.png 3x
+              "
+              src="./images/hero_ice_cream-mobile.png"
+              alt="ice"
+              width="171"
+            />
+          </div>
+
+          <div class="hero__content">
+            <h1 class="hero__title">
+              ice cream made with
+              <span class="hero__title--accent">passion</span>
+            </h1>
+            <ul class="hero__list">
+              <li class="hero__item">
+                <a href="#" class="hero__link--products">Products</a>
+              </li>
+
+              <li class="hero__item">
+                <a href="#" class="hero__link--made">How it’s made?</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-milk">
+            <div class="hero-milk__thumb">
+              <img src="./images/hero_milk-tablet.png" alt="milk" />
+            </div>
+            <div class="hero-milk-bio">
+              <p class="hero-milk__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et
+              </p>
+              <a href="#" class="hero-milk__link">
+                <img src="./images/hero_arrow-tablet.png" alt="arrow right" />
+              </a>
+            </div>
+          </div>
+
+          <div class="right-side">
+            <div class="right-side--cafes">
+              <img src="./images/hero_cafes-tablet.png" alt="number of cafes" />
+            </div>
+
+            <div class="right-side--trucks">
+              <img
+                src="./images/hero_trucks-tablet.png"
+                alt="number of trucks"
+              />
+            </div>
+
+            <div class="right-side--hot-girl">
+              <img src="./images/hero_girl-tablet.png" alt="hot girl" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
